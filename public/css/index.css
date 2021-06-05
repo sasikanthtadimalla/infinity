@@ -1,0 +1,424 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  padding: 0 5rem;
+}
+
+@media (max-width: 500px) {
+  nav {
+    padding: 0 2rem;
+  }
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+  color: #004aad;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1025px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  line-height: 1.5;
+}
+
+nav li {
+  margin-left: 3rem;
+}
+
+form {
+  text-align: left;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 769px) {
+  .col-md-6 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .col-md-3 {
+    width: 50% !important;
+    margin-bottom: 5rem;
+  }
+}
+/*************************************** TOP SECTION ************************************/
+
+#top-section {
+  padding: 0 5rem;
+}
+
+@media (max-width: 500px) {
+  #top-section {
+    padding: 0 1rem;
+  }
+}
+
+.get-quote-link {
+  background-color: #004aad;
+  color: white !important;
+  border-radius: 5px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  transition: 0.2s;
+}
+
+@media (max-width: 769px) {
+  .nav-item {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+}
+
+.active:hover, .get-qoute-btn:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  margin-top: 1rem;
+  width: 10%;
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .title-div-left {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.title-div-right {
+  text-align: right;
+  padding: 5rem 0 5rem 5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 769px) {
+  .title-div-right {
+    text-align: center;
+    padding: 5rem 0;
+  }
+}
+
+.title-img, .second-img, .map-img {
+  width: 100%;
+}
+
+.get-qoute-btn {
+  margin-top: 3rem;
+  background-color: orange;
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 1025px) {
+  #top-section .get-qoute-btn {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  #top-section .get-qoute-btn {
+    margin-top: 5rem;
+  }
+}
+/*************************************** FORM SECTION ************************************/
+
+#form-section {
+  padding: 5rem;
+}
+
+@media (max-width: 500px) {
+  #form-section {
+    padding: 5rem 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  #form-section {
+    padding: 5rem 0;
+  }
+}
+
+.form-div {
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1025px) {
+  .form-div {
+    padding: 0 2rem;
+  }
+}
+
+#form-section .col-md-6:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 769px) {
+  #form-section .col-md-6:nth-child(2) {
+    margin-top: 4rem;
+  }
+}
+
+.card {
+  background-color: #004aad;
+  width: 100%;
+}
+
+.form-title-div {
+  padding: 1rem 0 1.5rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown {
+  margin-bottom: 3rem;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.form-btn {
+  background-color: orange;
+  color: #004aad;
+  font-weight: bold;
+}
+/*************************************** SERVICES SECTION ************************************/
+
+#services-section {
+  padding: 5rem 1rem;
+  background-color: #004aad;
+}
+
+.services-title {
+  margin-bottom: 5rem;
+  color: white
+}
+
+#services-section h5 {
+  color: white;
+}
+
+.second-row {
+  margin: 5rem 0;
+}
+
+@media (max-width: 769px) {
+  .second-row {
+    margin: 0;
+  }
+}
+
+.fas, .fab {
+  margin-bottom: 2rem;
+}
+
+.fa-bullseye {
+  color: orange;
+}
+
+.fa-google {
+  color: #7ed957;
+}
+
+.fa-users {
+  color: #5ce1e6;
+}
+
+.fa-pen {
+  color: #ff5757;
+}
+
+.fa-mobile {
+  color: #ff5757;
+}
+
+.fa-at {
+  color: #5ce1e6;
+}
+
+.fa-code {
+  color: #7ed957;
+}
+
+.fa-palette {
+  color: orange;
+}
+
+/*************************************** TESTIMONIALS SECTION ************************************/
+
+#testimonials-section {
+  padding: 5rem 1rem;
+  background-color: whitesmoke;
+}
+
+@media (max-width: 1025px) {
+  #testimonials-section {
+    padding: 5rem 1rem;
+  }
+}
+
+.testmonial-img {
+  width: 15%;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 769px) {
+  .testmonial-img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .testmonial-img {
+    width: 50%;
+  }
+}
+
+.carousel {
+  margin: 8rem 0 0;
+}
+
+.carousel-item:hover {
+  transform: none;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black !important;
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: transparent !important;
+  }
+}
+
+#testimonials-section h4 {
+  color: #004aad;
+}
+
+#testimonials-section .get-qoute-btn {
+  margin-top: 8rem;
+}
+
+/*************************************** CONTACT SECTION ************************************/
+
+#contact-section {
+  padding: 5rem;
+}
+
+@media (max-width: 500px) {
+  #contact-section {
+    padding: 5rem 1rem;
+  }
+}
+
+.contact-div {
+  display: flex;
+  align-items: center;
+  text-align: right !important;
+}
+
+@media (max-width: 769px) {
+  .contact-div {
+    text-align: center !important;
+    margin-top: 4rem;
+  }
+}
+
+.contact-div h1 {
+  margin-bottom: 4rem;
+}
+
+.contact-div div {
+  margin-left: auto;
+}
+
+@media (max-width: 769px) {
+  .contact-div div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .address {
+    margin-bottom: 2rem;
+  }
+}
+/*************************************** FOOTER SECTION ************************************/
+
+#footer-section {
+  padding: 1rem 0;
+  background-color: #004aad;
+}
+
+#footer-section .fab {
+  color: white;
+  transition: 0.1s;
+}
+
+#footer-section .fab:hover {
+  transform: scale(1.1);
+}
+
+#footer-section a {
+  margin: 0 0.5rem;
+}
+
+#footer-section p {
+  margin: 0;
+  color: white;
+}

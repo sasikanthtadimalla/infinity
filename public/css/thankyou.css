@@ -1,0 +1,21 @@
+section {
+  padding: 6rem 2rem !important;
+}
+
+h3 {
+  margin-bottom: 3rem;
+}
+
+button {
+  background-color: #004aad !important;
+  color: white !important;
+}
+
+.wrong {
+  color: #ff5757;
+}
+
+.wrong-btn {
+  background-color: #ff5757 !important;
+  color: white !important;
+}
